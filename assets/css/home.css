@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    padding: 20px;
+}
+
+header{ 
+    /* max-height: 60px; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* padding: 30px; */
+    background-image: linear-gradient(rgb(255, 0, 115), rgba(255, 47, 217, 0.751));
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "menu logo pesquisa";
+}
+
+#menu{
+    grid-area: menu;
+    height: 8vh;
+    align-self: center;
+    margin-left: 5%;
+}
+
+#logo{
+    grid-area: logo;
+    height: 13vh;
+    width: 13vw;
+    justify-self: center;
+    background-image: -moz-linear-gradient(rgb(147, 255, 237),rgb(147, 255, 237));
+}
+
+.pesquisa{
+    grid-area: pesquisa;
+    justify-self: end;
+    margin-right: 10%;
+    align-self: center;
+}
+
+html{
+    min-height: 100%;
+}
+
+body{
+    background: linear-gradient(rgb(5, 247, 255),rgb(0, 129, 118) );
+}
+
+button{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(223, 138, 221);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* .destaques{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+li{
+    list-style-type: none;
+    text-align: center;
+}
+
+.imagens-destaques{
+    width: 23rem;
+    height: 15rem;
+    padding: 10px;
+}
+
+.caixas-destaques{
+    background-color: rgb(255, 0, 179);   
+    background-origin: padding-box;
+    border: solid;
+} */
