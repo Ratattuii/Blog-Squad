@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='cadastrar.css') }}">
+</head>
+<body>
+    <header>
+        <a href="/"></a>
+    </header>
+
+    <section>
+        <h1>Cadrastar Notícia</h1>
+
+        <form action="/cadastrar" method="POST">
+            <label for="">Título:</label>
+            <input type="text" name="titulo" id="titulo">
+
+            <label for="">Conteúdo:</label>
+            <textarea name="conteudo" id="conteudo" cols="30" rows="10"></textarea>
+
+            <input type="submit" value="Cadastrar">
+        </form>
+
+    </section>
+</body>
+</html>
