@@ -58,6 +58,12 @@ button{
     cursor: pointer;
 }
 
+.link-noticias{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
 /* .destaques{
     display: flex;
     align-items: center;
