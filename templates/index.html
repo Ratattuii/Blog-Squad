@@ -5,18 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog topzera</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="/static/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <header>
 
-        <img src="/assets/images/squad_games-removebg-preview.png" alt="" id="logo">
+        <img src="/static/assets/images/logo.png" alt="" id="logo">
     
-        <div class="pesquisa">
+        <!-- <div class="pesquisa">
             <input type="text">
             <i style="font-size:22px" class="fa" class="lupa">&#xf002;</i>
-        </div>
+        </div> -->
 
     </header>
 
@@ -27,17 +28,16 @@
         </div>
     </main>
     
-    <footer>
+    <!-- <footer>
         <div>
-            <form action="#" method="get" class="form-newsletter">
-            <label for="form-newsletter__label" class="form-newsletter__label"> Seu email pessoal
-            </label>
+            <form>
+            <label> Seu email pessoal</label>
             
-            <input id="email-newsletter" name="email-newsletter" type="email" class="form-newsletter__campo">
+            <input>
             
-            <button type="submit" class="form-newsletter__botao"> OK</button>
+            <button>OK</button>
             </form>
         </div>
-    </footer>
+    </footer> -->
 </body>
 </html>

@@ -4,19 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='noticias.css') }}">
 </head>
 <body>
-    <h1>Noticias Cadastradas</h1>
-    <a href="/">Voltar</a>
-    {% if noticias %}
-        {% for noticia in noticias%}
-        <div>
-            <p>{{noticia.titulo}}</p>
-            <p>{{noticia.conteudo}}</p>
-        </div>
-        {% endfor %}
-    {% else %}
-        <p>Nenhuma noticia cadastrada.</p>
-    {% endif %}
+    <header>
+        <h1>Noticias Cadastradas</h1>
+    </header>
+    
+    <main>
+        {% if noticias %}
+            {% for noticia in noticias%}
+            <div class="noticias">
+                <h3>{{noticia.titulo}}</h3>
+                <p id="texto">{{noticia.conteudo}}</p>
+                <a href="{{noticia.imagem}}">imagem</a>
+                <a href="{{noticia.imagem2}}">imagem 2</a>
+            </div>
+            {% endfor %}
+        {% else %}
+            <p>Nenhuma noticia cadastrada.</p>
+        {% endif %}
+
+        <a href="/" id="botão-voltar">Voltar</a>
+    </main>
+
 </body>
 </html>

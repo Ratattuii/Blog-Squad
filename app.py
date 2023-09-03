@@ -3,6 +3,8 @@ import json
 
 app = Flask(__name__)
 
+
+
 @app.route('/')
 def home():
     return render_template('index.html')
@@ -12,6 +14,8 @@ def cadastrar():
     if request.method == "POST":
         titulo = request.form['titulo']
         conteudo = request.form['conteudo']
+        imagem = request.form['imagem']
+        imagem2 = request.form['imagem2']
 
         with open('noticias.json', 'r') as file:
             dados = json.load(file)
@@ -23,7 +27,9 @@ def cadastrar():
         nova_noticia ={
             'id': proximo_id,
             'titulo': titulo,
-            'conteudo': conteudo
+            'conteudo': conteudo,
+            'imagem': imagem,
+            'imagem2': imagem2
         }
 
         noticias.append(nova_noticia)

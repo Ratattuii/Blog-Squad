@@ -1,3 +1,18 @@
 {
-    "noticias": [] 
+    "noticias": [
+        {
+            "id": 1,
+            "titulo": "O plagio ",
+            "conteudo": "plagio",
+            "imagem": "https://ibb.co/ypcmGcP",
+            "imagem2": "https://ibb.co/kHRJt5m"
+        },
+        {
+            "id": 2,
+            "titulo": "Texto mundo do trabalho",
+            "conteudo": "\r\nA ind\u00fastria de jogos tem evolu\u00eddo de forma surpreendente ao longo das d\u00e9cadas. Com narrativas envolventes, gr\u00e1ficos espetaculares e interatividade, os jogos se tornaram uma parte insepar\u00e1vel da cultura mundial. A trajet\u00f3ria dessa ind\u00fastria n\u00e3o apenas reflete avan\u00e7os tecnol\u00f3gicos, mas tamb\u00e9m transforma\u00e7\u00f5es na forma como o trabalho \u00e9 feito, executado e imaginado.\r\n\r\nNo passado, a ind\u00fastria de jogos estava muitas vezes restrita a pequenas equipes e independentes, onde os desenvolvedores utilizavam recursos limitados para desenvolver experi\u00eancias simples, mas memor\u00e1veis. O processo de trabalho era r\u00fastico e muitas vezes necessitava que os desenvolvedores desempenhassem v\u00e1rias fun\u00e7\u00f5es, desde a programa\u00e7\u00e3o at\u00e9 a cria\u00e7\u00e3o de gr\u00e1ficos e trilhas sonoras.\r\n\r\nHoje, a ind\u00fastria de jogos cresceu exponencialmente, abrangendo desde pequenas equipes independentes at\u00e9 gigantes est\u00fadios de desenvolvimento. O mundo do trabalho tornou-se mais especializado, com profissionais se concentrando em \u00e1reas como design, programa\u00e7\u00e3o, roteiristas, e muito mais. Al\u00e9m disso, a ascens\u00e3o das plataformas de distribui\u00e7\u00e3o digital permitiu que criadores independentes alcan\u00e7assem uma audi\u00eancia global. Mas isso tamb\u00e9m refor\u00e7ou a superioridade dos est\u00fadios renomados\r\n\r\nOlhando para o futuro da ind\u00fastria de jogos, conseguimos ver a tentativa de desenvolver tecnologias imersivas. A realidade virtual, a realidade aumentada e o processamento em nuvem prometem experi\u00eancias ainda mais imersivas e expansivas. A colabora\u00e7\u00e3o global se tornar\u00e1 mais comum, com equipes de diferentes partes do mundo trabalhando em projetos conjuntos. Al\u00e9m disso, a intelig\u00eancia artificial poder\u00e1 desempenhar um papel crucial na cria\u00e7\u00e3o de jogos proceduralmente gerados, permitindo que cada jogador tenha uma experi\u00eancia \u00fanica.\r\n\r\nA ind\u00fastria de jogos \u00e9 um testemunho vivo da criatividade humana e do avan\u00e7o tecnol\u00f3gico. Da simplicidade  dos prim\u00f3rdios ao mundo altamente especializado e conectado de hoje, e \u00e0 prov\u00e1vel ascens\u00e3o procedural do amanh\u00e3, o setor reflete nossa capacidade de inova\u00e7\u00e3o e adapta\u00e7\u00e3o.\r\n\r\nIntegrantes: Arthur Selegar, Arthur Xavier, Eduardo Streit e Guilherme Cardoso",
+            "imagem": "",
+            "imagem2": ""
+        }
+    ]
 }
