@@ -5,6 +5,10 @@ body {
     padding: 0;
 }
 
+html{
+    min-height: 100%;
+}
+
 .container {
     background-image: linear-gradient(rgb(255, 0, 115), rgba(255, 47, 217, 0.751));
     border-radius: 5px;
